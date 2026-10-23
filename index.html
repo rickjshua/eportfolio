@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Roshan Briones Tan | Education E-Portfolio</title>
+<meta name="description" content="E-Portfolio of a future educator.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700&family=Nunito+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+
+<header class="nav" id="nav">
+  <div class="wrap nav-in">
+    <a class="brand" href="#home">Roshan Briones Tan</a>
+    <button class="menu-btn" id="menuBtn" aria-label="Open menu" aria-expanded="false" aria-controls="menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav id="menu" class="menu" aria-label="Main">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#philosophy">Philosophy</a>
+      <a href="#journey">Journey</a>
+      <a href="#portfolio">Portfolio</a>
+      <a href="#achievements">Achievements</a>
+      <a href="#reflection">Reflection</a>
+      <a href="#contact" class="pill">Contact</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+<section id="home" class="hero">
+  <div class="wrap hero-in">
+    <div class="hero-text">
+      <p class="hello">Welcome to my e-portfolio</p>
+      <h1>Hi, I’m Roshan Briones Tan, a future teacher in the making.</h1>
+      <p class="lead">[Write one or two sentences about your major, your school, and the grade level or subject you hope to teach.]</p>
+      <div class="actions">
+        <a class="btn" href="#portfolio">View my work</a>
+        <a class="btn ghost" href="#contact">Get in touch</a>
+      </div>
+    </div>
+    <div class="portrait" role="img" aria-label="Placeholder for your photo">
+      <div class="blob b1"></div><div class="blob b2"></div>
+      <div class="photo"><span>YN</span><small>Replace with your photo</small></div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="section">
+  <div class="wrap">
+    <h2 class="reveal">About me</h2>
+    <div class="grid-2">
+      <div class="reveal">
+        <p>[Introduce yourself here: where you are from, why you chose education, and what motivates you.]</p>
+        <p>[Add a second paragraph about the people or experiences that inspired you to become a teacher.]</p>
+      </div>
+      <div class="cards-stack">
+        <article class="card reveal"><h3>Education</h3><p>[Degree program, e.g. Bachelor of Education]<br>[School or university name]<br>[Expected graduation year]</p></article>
+        <article class="card reveal"><h3>Interests</h3>
+          <ul class="tags"><li>[Interest 1]</li><li>[Interest 2]</li><li>[Interest 3]</li><li>[Interest 4]</li></ul></article>
+        <article class="card reveal"><h3>Personal goals</h3><p>[Describe one or two goals for your studies and early teaching career.]</p></article>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="philosophy" class="section tint">
+  <div class="wrap narrow">
+    <h2 class="reveal">Teaching philosophy</h2>
+    <blockquote class="reveal">[Write a short statement that sums up your belief about teaching, in your own words.]</blockquote>
+    <div class="grid-3">
+      <article class="card reveal"><h3>How I see teaching</h3><p>[Describe the role you believe a teacher plays in a classroom.]</p></article>
+      <article class="card reveal"><h3>How students learn</h3><p>[Explain how you believe students learn best.]</p></article>
+      <article class="card reveal"><h3>How I support students</h3><p>[Describe how you will help every learner feel safe, included, and challenged.]</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="journey" class="section">
+  <div class="wrap narrow">
+    <h2 class="reveal">My teaching journey</h2>
+    <ol class="timeline">
+      <li class="reveal"><span class="when">[Year / Term]</span><h3>[Course, observation, or experience]</h3><p>[What you did and what you noticed.]</p><p class="note"><strong>Reflection:</strong> [What this taught you.]</p></li>
+      <li class="reveal"><span class="when">[Year / Term]</span><h3>[Practicum or field experience]</h3><p>[Describe your role, the grade level, and your tasks.]</p><p class="note"><strong>Reflection:</strong> [What you would do differently.]</p></li>
+      <li class="reveal"><span class="when">[Year / Term]</span><h3>[Club, volunteer work, or tutoring]</h3><p>[Describe the activity and your contribution.]</p><p class="note"><strong>Reflection:</strong> [How it shaped you.]</p></li>
+    </ol>
+  </div>
+</section>
+
+<section id="portfolio" class="section tint">
+  <div class="wrap">
+    <h2 class="reveal">Portfolio and artifacts</h2>
+    <p class="sub reveal">Sample work you can replace with your own. Use the filters to browse.</p>
+    <div class="filters reveal" role="group" aria-label="Filter artifacts">
+      <button class="chip active" data-filter="all">All</button>
+      <button class="chip" data-filter="lesson">Lesson plans</button>
+      <button class="chip" data-filter="activity">Activities</button>
+      <button class="chip" data-filter="presentation">Presentations</button>
+      <button class="chip" data-filter="project">Projects</button>
+    </div>
+    <div class="grid-3 works">
+      <article class="work reveal" data-cat="lesson"><div class="thumb t1"><span>Lesson plan</span></div><div class="body"><h3>[Lesson plan title]</h3><p>[Subject, grade level, and a one-line description of the objective.]</p><a href="#" class="more">View artifact</a></div></article>
+      <article class="work reveal" data-cat="activity"><div class="thumb t2"><span>Activity</span></div><div class="body"><h3>[Classroom activity title]</h3><p>[Describe the activity and the skill it builds.]</p><a href="#" class="more">View artifact</a></div></article>
+      <article class="work reveal" data-cat="presentation"><div class="thumb t3"><span>Presentation</span></div><div class="body"><h3>[Presentation title]</h3><p>[Describe the topic and the audience.]</p><a href="#" class="more">View artifact</a></div></article>
+      <article class="work reveal" data-cat="project"><div class="thumb t4"><span>Project</span></div><div class="body"><h3>[Educational project title]</h3><p>[Describe the project and what you learned.]</p><a href="#" class="more">View artifact</a></div></article>
+      <article class="work reveal" data-cat="lesson"><div class="thumb t2"><span>Lesson plan</span></div><div class="body"><h3>[Second lesson plan]</h3><p>[Subject, grade level, and objective.]</p><a href="#" class="more">View artifact</a></div></article>
+      <article class="work reveal" data-cat="activity"><div class="thumb t1"><span>Activity</span></div><div class="body"><h3>[Second activity]</h3><p>[Short description.]</p><a href="#" class="more">View artifact</a></div></article>
+    </div>
+  </div>
+</section>
+
+<section id="achievements" class="section">
+  <div class="wrap">
+    <h2 class="reveal">Achievements</h2>
+    <p class="sub reveal">List only real certificates, awards, and accomplishments.</p>
+    <div class="grid-3">
+      <article class="card badge reveal"><div class="icon" aria-hidden="true">★</div><h3>[Award or honor]</h3><p>[Issuer, year, and a short note.]</p></article>
+      <article class="card badge reveal"><div class="icon" aria-hidden="true">✓</div><h3>[Certificate or training]</h3><p>[Provider, year, and what it covered.]</p></article>
+      <article class="card badge reveal"><div class="icon" aria-hidden="true">♥</div><h3>[Service or leadership role]</h3><p>[Organization, dates, and impact.]</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="reflection" class="section tint">
+  <div class="wrap narrow">
+    <h2 class="reveal">Reflection</h2>
+    <div class="reflect">
+      <article class="card reveal"><h3>How I have grown</h3><p>[Describe how you have changed since you began your studies.]</p></article>
+      <article class="card reveal"><h3>Lessons learned</h3><p>[Share the most important lessons from your coursework and experiences.]</p></article>
+      <article class="card reveal"><h3>My future teaching goals</h3><p>[Describe the teacher you want to become and the steps you plan to take.]</p></article>
+    </div>
+  </div>
+</section>
+
+<section id="contact" class="section">
+  <div class="wrap narrow center">
+    <h2 class="reveal">Let’s connect</h2>
+    <p class="sub reveal">I would love to hear from mentors, colleagues, and future employers.</p>
+    <div class="contact-links reveal">
+      <a class="btn" href="mailto:your.email@example.com">your.email@example.com</a>
+      <a class="btn ghost" href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener">LinkedIn</a>
+      <a class="btn ghost" href="https://github.com/your-username" target="_blank" rel="noopener">GitHub</a>
+    </div>
+  </div>
+</section>
+</main>
+
+<footer class="footer"><div class="wrap"><p>© <span id="year">2026</span> [Your Name]. Sample e-portfolio.</p></div></footer>
+
+<button class="top" id="toTop" aria-label="Back to top">↑</button>
+<script src="script.js"></script>
+</body>
+</html>
